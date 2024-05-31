@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Main Page</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px;
+            margin: 0;
+        }
+        .content-container {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 80%;
+            max-width: 800px;
+        }
+        .content-container h1 {
+            color: #0056b3;
+            font-family: 'Arial', sans-serif;
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+        .profile-photo {
+            border-radius: 10px;
+            margin-bottom: 20px;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+        .about-me {
+            margin-bottom: 20px;
+        }
+        .about-me p {
+            margin: 0 auto;
+            max-width: 600px;
+        }
+        .content-container a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #0056b3;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .content-container a:hover {
+            background-color: #004494;
+        }
+        .button-group {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .button-group a {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="content-container">
+        <h1>Welcome!</h1>
+        <div class="button-group">
+            <a href="education.jsp">My Education</a>
+            <a href="gallery.jsp">My Gallery</a>
+            <a href="bmi.jsp">BMI Calculator</a>
+            <a href="contact.jsp">Contact Information</a>
+            <a href="hobby.jsp">My Hobbies</a>
+        </div>
+        <img src="image/iman suit.jpg" alt="Profile Picture" class="profile-photo">
+        <div class="about-me">
+            <p> Greetings! My name is Iman Zaim bin Norfazli or you can call me Iman for short. Currently studying computer science, specifically in Multimedia Computing. My hobbies are anything related to automotive, motorsport and music!</p>
+        </div>
+        <div class="teasers">
+            <h2>Explore More:</h2>
+            <p>Check out the education page for more information on my studies, and also check out my gallery to see cool pictures of my hobby!(and a video of my inspiration)</p>  
+        </div>
+    </div>
+</body>
+</html>
+

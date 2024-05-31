@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Education</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px;
+            margin: 0;
+        }
+        .content-container {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 80%;
+            max-width: 600px;
+        }
+        .content-container h1 {
+            color: #0056b3;
+            font-family: 'Arial', sans-serif;
+            font-size: 32px;
+        }
+        .content-container p {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+        .content-container a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #0056b3;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .content-container a:hover {
+            background-color: #004494;
+        }
+    </style>
+</head>
+<body>
+    <div class="content-container">
+        <h1>My Education</h1>
+        <p>Degree: Bachelor in Multimedia Computing (Hons.)</p>
+        <p>University: UiTM Shah Alam</p>
+        <p>Graduation Year: 2025</p>
+        <p>Additional Courses: Web Development, Data Structures, Networking, Basic French, English</p>
+        <a href="main.jsp">Back to main page</a>
+    </div>
+</body>
+</html>
+
